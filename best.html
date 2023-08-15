@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>The Best Anime in 2023</title>
+    </head>
+    <body>
+        
+        <button class="anime"><img src="1.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        
+        <button class="anime"><img src="2.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        
+        <button class="anime"><img src="3.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+    
+        
+        <button class="anime"><img src="4.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        <br>
+
+        <button class="anime"><img src="5.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        
+        <button class="anime"><img src="6.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        
+        <button class="anime"><img src="7.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+    
+        
+        <button class="anime"><img src="8.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        <br>
+
+        <button class="anime"><img src="9.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        
+        <button class="anime"><img src="10.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+        
+        <button class="anime"><img src="11.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+    
+        
+        <button class="anime"><img src="12.jpg" class="img"></button>
+        <span class="name"></span>
+        <span class="emogi"></span>
+        <span class="rank"></span>
+
+        <script>
+
+            let anime = document.querySelectorAll('.anime');
+            let name = document.querySelectorAll('.name');
+            let rank = document.querySelectorAll('.rank')
+            let emogi = document.querySelectorAll('.emogi')
+            
+            const namee =["Name: Jujutsu Kaisen",
+                          "Name: Mushoku Tensei",
+                          "Name: Tate no Yuusha no Nariagari",
+                          "Name: Bleach",
+                          "Name: Kage no Jitsuryokusha ni Naritakute!",
+                          "Name: Bungou Stray Dogs",
+                          "Name: Nanatsu no Maken ga Shihai suru",
+                          "Name: Rurouni Kenshin",
+                          "Name: Undead Girl Murder Farce",
+                          "Name: Dark Gathering",
+                          "Name: Ayaka",
+                          "Name: Synduality: Noir"]
+
+            const rankk =["Rank: 8.81",
+                          "Rank: 8.59",
+                          "Rank: N/A",
+                          "Rank: 8.96",
+                          "Rank: 8.45",
+                          "Rank: 8.68",
+                          "Rank: 6.79",
+                          "Rank: 7.78",
+                          "Rank: 7.82",
+                          "Rank: 7.33",
+                          "Rank: 6.11",
+                          "Rank: 6.76"]
+
+            for (let i = 0; i < 13; i++)
+            {
+                anime[i].addEventListener('click', function show(){
+
+                    name[i].innerHTML = namee[i];
+                    name[i].style.color = "#ccc";
+
+                    emogi[i].innerHTML = "&#11088";
+
+                    rank[i].innerHTML = rankk[i];
+                    rank[i].style.color = "#ccc";
+
+                    anime[i].addEventListener('click', function(){
+                         name[i].innerHTML = "";
+                         emogi[i].innerHTML = "";
+                         rank[i].innerHTML = "";
+                    });
+                });
+            }
+
+        </script>
+    </body>
+</html>

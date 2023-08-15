@@ -1,0 +1,81 @@
+body
+{
+    background-color: #121212;
+}
+
+table
+{
+    width: 100%;
+}
+
+table td
+{
+    padding: 4px 0;
+}
+
+table tr
+{
+    font-size: 20px;
+}
+
+.img1
+{
+    width: 50%;
+    height: 50%;
+}
+
+.img
+{
+    text-align: center;
+    width: 7%;
+}
+
+.t
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 300%;
+}
+
+.head
+{
+    color: #e0e0e0;
+    font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+    padding: 4px 0;
+    text-align: center;
+    background-color: #333;
+    border: #333 0 solid;
+}
+
+.one
+{
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.two
+{
+    background-color: #181818;
+    color: #e0e0e0;
+}
+
+.r
+{
+    font-size: 300%;
+}
+
+.s
+{
+    font-size: 150%;
+}
+
+.rank
+{
+    text-align: center;
+    width: 7%;
+}
+
+.title
+{
+    width: 30%;
+}
